@@ -1,1 +1,172 @@
-Hello World
+<html>
+    <head>
+        <style>
+            .main-page {
+                margin: auto;
+            }
+            .header {
+                background: #004e45;
+                color:#fff;
+                border-radius: 5px;
+                padding-top: 2em;
+                padding-bottom: 2em;
+                padding-left: 4em;
+            }
+            .content {
+                background:#DCE1DE;
+                border-radius: 5px;
+                padding-top: 2em;
+                padding-bottom: 2em;
+                padding-left: 4em;
+            }
+            .content-body {
+                width: 100%;
+            }
+            .content-item {
+                background:#F3F3F3;
+                border-radius: 5px;
+                margin: 2em;
+                width: 50%;
+                padding: 1em;
+            }
+            .left {
+                margin-right: auto;
+            }
+            .right {
+                margin-left: auto;
+            }
+            label {
+                font-size: 1.2em;
+            }
+            dl {
+                padding-left: 1em;
+            }
+            dt {
+                padding: 0.2em;
+            }
+            dd {
+                font-size: 0.9em;
+                padding: 0.1em;
+            }
+            .footer {
+                font-size: 0.9em;
+                margin-left: auto;
+                padding: 0.1em;
+            }
+            .wpp-button {
+                height: 9em;
+                width: 7em;
+                position:fixed;
+                top:50px;
+                right: 50px;
+                padding: 1em;
+                background:#d2d7be;
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 2px 2px #004e45;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="main-page">
+            <div class="header">
+                <h1>
+                    PardalBot
+                </h1>
+                <h3>
+                    Gerencie seus atendimentos 100% por WhatsApp!
+                </h3>
+            </div>
+            <div class="content">
+                <div class="content-header">
+                    <h4>
+                        E simples assim:
+                    </h4>
+                </div>
+                <div class="content-body">
+                    <div class="instructions">
+                        <div class="content-item left">
+                            <label>Para registrar:</label>
+                            <dl>
+                                <dt>Adcione o contato do PardalBot e mande um "Ola"</dt>
+                                <dt>Receba a mensagem de boas vindas e clique no link para fazer login com sua conta google</dt>
+                                <dt>Envie o codigo de confirmacao para completar seu cadastro</dt>
+                                <dt>Pronto! seu cadastro esta completo</dt>
+                            </dl>
+                        </div>
+                        <div class="content-item right">
+                            <label>Para adicionar seus contatos</label>
+                            <dl>
+                                <dt>
+                                    Compartilhe os contatos com quem voce deseja marcar seus atendimentos
+                                </dt>
+                            </dl>
+                        </div>
+                        <div class="content-item left">
+                            <label>Para marcar um atendimento</label>
+                            <dl>
+                                <dt>Envie uma mensagem ao pardal dizendo:</dt>
+                                <dd>O nome do contato</dd>
+                                <dd>O tipo do atendimento. Pode ser consulta, reuniao, atendimento, horario, etc...</dd>
+                                <dd>A data e hora. Pode ser desde "dia 11 de abril as 14 horas", ate "amanha as 2" que vai funcionar</dd>
+                                <dt>Aguarde a confirmacao!</dt>
+                                <dt>Se faltar alguma coisa, o pardal pergunta</dt>
+                            </dl>
+                        </div>
+                        <div class="content-item right">
+                            <label>Para reagendar um atendimento</label>
+                            <dl>
+                                <dt>Mande uma mensagem pedindo para reagendar seu atendimento</dt>
+                                <dt>Indique qual atendimento voce quer reagendar na mensagem</dt>
+                                <dd>Pode ser passando o contato que estara com voce</dd>
+                                <dd>Pode ser o dia e horario do atendimento</dd>
+                                <dt>Indique o novo dia e horario</dt>
+                                <dd>"Amanha as 10" functiona tao bem quanto "dia 2 de julho as 15 horas"</dd>
+                                <dt>Aguarde a confirmacao</dt>
+                                <dt>Se faltar alguma coisa, o pardal pergunta</dt>
+                            </dl>
+                        </div>
+                        <div class="content-item left">
+                            <label>Para cancelar um atendimento</label>
+                            <dl>
+                                <dt>Mande uma mensagem indicando qual atendimento voce quer cancelar</dt>
+                                <dt>Aguarde a confirmacao</dt>
+                                <dt>Confirme se e o atendimento correto!</dt>
+                                <dt>Clique em Ok para cancelar</dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <label>Contato</label>
+                <div>
+                    <p>Douglas Pampu</p>
+                    <p>+32 471 45 64 84</p>
+                    <a href="https://www.linkedin.com/in/douglascpampu/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wpp-button">
+            <a href="https://wa.me/32497022623?text=Ola%20PardalBot" target="_blank">
+                <svg height="100px" width="100px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 58 58" xml:space="preserve">
+                <g>
+                    <path style="fill:#2CB742;" d="M0,58l4.988-14.963C2.457,38.78,1,33.812,1,28.5C1,12.76,13.76,0,29.5,0S58,12.76,58,28.5
+                        S45.24,57,29.5,57c-4.789,0-9.299-1.187-13.26-3.273L0,58z"/>
+                    <path style="fill:#FFFFFF;" d="M47.683,37.985c-1.316-2.487-6.169-5.331-6.169-5.331c-1.098-0.626-2.423-0.696-3.049,0.42
+                        c0,0-1.577,1.891-1.978,2.163c-1.832,1.241-3.529,1.193-5.242-0.52l-3.981-3.981l-3.981-3.981c-1.713-1.713-1.761-3.41-0.52-5.242
+                        c0.272-0.401,2.163-1.978,2.163-1.978c1.116-0.627,1.046-1.951,0.42-3.049c0,0-2.844-4.853-5.331-6.169
+                        c-1.058-0.56-2.357-0.364-3.203,0.482l-1.758,1.758c-5.577,5.577-2.831,11.873,2.746,17.45l5.097,5.097l5.097,5.097
+                        c5.577,5.577,11.873,8.323,17.45,2.746l1.758-1.758C48.048,40.341,48.243,39.042,47.683,37.985z"/>
+                </g>
+                </svg>
+                <label>Ola PardalBot!</label>
+            </a>
+        </div>
+
+
+    </body>
+</html>
